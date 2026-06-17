@@ -3,7 +3,7 @@ import Header from "./components/header.jsx"
 import Scoreboard from "./components/scoreboard.jsx"
 import Cards from "./components/cards.jsx"
 import {FetchPokemon} from "./services/pokemon.js"
-import './app.css'
+import './App.css'
 
 function App(){
 const [cards,setCards]=useState([])
