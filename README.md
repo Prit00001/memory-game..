@@ -1,18 +1,138 @@
-# React + Vite
+# 🎮 Pokemon Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive Pokémon-themed memory card game built with React and Vite.
 
-Currently, two official plugins are available:
+The objective is simple: click on Pokémon cards without selecting the same Pokémon twice. Every correct selection increases your score, but selecting a previously clicked Pokémon resets the game!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://memory-game-liart-phi.vercel.app/
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 📸 Preview
 
-## Expanding the ESLint configuration
+<img width="100%" alt="Pokemon Memory Game" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🎴 Dynamic Pokémon cards
+- 🔀 Cards shuffle after every click
+- 📈 Score tracking
+- 🏆 Best score tracking
+- ⚡ Fast and responsive UI
+- 🎨 Clean Pokémon-inspired design
+- 📱 Mobile-friendly layout
+
+---
+
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- PokeAPI
+
+---
+
+## 🎯 How to Play
+
+1. Click on a Pokémon card.
+2. After every click, the cards shuffle.
+3. Do not click the same Pokémon twice.
+4. Each unique click increases your score.
+5. Clicking a previously selected Pokémon resets the current score.
+6. Try to achieve the highest score possible.
+
+---
+
+## 📂 Project Structure
+
+```bash
+Pokemon-Memory-Game/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Prit00001/Pokemon-Memory-Game.git
+```
+
+Navigate into the project:
+
+```bash
+cd Pokemon-Memory-Game
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 API Used
+
+This project uses the free Pokémon API:
+
+https://pokeapi.co/
+
+---
+
+## 📈 Future Improvements
+
+- Difficulty levels
+- Sound effects
+- Animations
+- Leaderboard system
+- Timer mode
+- Pokémon categories
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 👨‍💻 Author
+
+**Pratyush Pandey**
+
+- GitHub: https://github.com/Prit00001
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
